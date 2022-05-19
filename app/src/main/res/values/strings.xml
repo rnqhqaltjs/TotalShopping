@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TotalShopping</string>
+    <string name="ic_search">Search</string>
+
+    <string name="drawer_opened">Open</string>
+
+    <string name="drawer_closed">Close</string>
+</resources>

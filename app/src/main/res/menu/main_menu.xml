@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <item
+        android:id="@+id/item_bookmark"
+        android:title="관심 항목" />
+
+    <item
+        android:id="@+id/item_out"
+        android:title="나가기" />
+
+    <item
+        android:id="@+id/item_info"
+        android:title="개발정보" />
+
+</menu>
