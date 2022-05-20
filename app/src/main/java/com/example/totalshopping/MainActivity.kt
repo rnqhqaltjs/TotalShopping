@@ -4,21 +4,16 @@ import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import android.webkit.WebView
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.totalshopping.databinding.ActivityMainBinding
@@ -30,8 +25,11 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import androidx.recyclerview.widget.GridLayoutManager
+import com.example.totalshopping.info.InfoActivity
+import com.example.totalshopping.model.NaverAPI
 import com.example.totalshopping.sqlite.BookmarkActivity
 import com.google.android.material.snackbar.Snackbar
+import kotlin.system.exitProcess
 
 
 class MainActivity : AppCompatActivity() {
@@ -266,9 +264,16 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.item_out -> {
 
+                    moveTaskToBack(true)
+                    finishAndRemoveTask()
+                    exitProcess(0)
+
                 }
 
                 R.id.item_info -> {
+
+                    val intent = Intent(this, InfoActivity::class.java)
+                    startActivity(intent)
 
                 }
 

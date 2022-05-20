@@ -1,4 +1,4 @@
-package com.example.totalshopping
+package com.example.totalshopping.model
 
 import com.example.totalshopping.model.ResultGetSearchShopping
 import retrofit2.Call

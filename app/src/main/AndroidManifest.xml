@@ -15,6 +15,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
+            android:name=".info.OssLicensesMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".info.InfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".sqlite.BookmarkRVAdapter"
             android:exported="false" />
         <activity

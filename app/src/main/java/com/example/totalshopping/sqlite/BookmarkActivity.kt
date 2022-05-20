@@ -1,5 +1,6 @@
 package com.example.totalshopping.sqlite
 
+import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
@@ -56,6 +57,7 @@ class BookmarkActivity : AppCompatActivity() {
         return true
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item?.itemId){
             R.id.deleteall -> {
@@ -72,7 +74,7 @@ class BookmarkActivity : AppCompatActivity() {
                     helper.deleteAllMemo()
                     listData.clear()
 
-                    Toast.makeText(this,"전체 항목 삭제 완료",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this,"전체 삭제 완료",Toast.LENGTH_SHORT).show()
 
                     binding.recyclerView.adapter?.notifyDataSetChanged()
 
