@@ -2,7 +2,6 @@
 <resources>
 
     <string-array name="itemList">
-        <item>10개</item>
         <item>20개</item>
         <item>50개</item>
         <item>100개</item>

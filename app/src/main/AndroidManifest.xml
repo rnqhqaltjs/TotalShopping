@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.totalshopping">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,6 +15,11 @@
         android:theme="@style/Theme.TotalShopping"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".info.OssLicensesMenuActivity"
             android:exported="false" />
@@ -22,13 +28,17 @@
             android:exported="false" />
         <activity
             android:name=".sqlite.BookmarkRVAdapter"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".sqlite.BookmarkActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".intro.IntroActivity"
             android:exported="true">
+
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

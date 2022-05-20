@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TotalShopping</string>
+    <string name="app_name">토탈쇼핑</string>
     <string name="ic_search">Search</string>
 
     <string name="drawer_opened">Open</string>

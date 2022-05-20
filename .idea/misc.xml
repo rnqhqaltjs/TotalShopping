@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2869791666666667" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/drawable/round_background_border_black.xml" value="0.2869791666666667" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/drawable/square_background_border_black.xml" value="0.2869791666666667" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout-v23/item_main.xml" value="0.264" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout-v23/item_main2.xml" value="0.14402173913043478" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/activity_bookmark.xml" value="0.24320652173913043" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/activity_bookmark_rvadapter.xml" value="0.23867753623188406" />
-        <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/activity_info.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/activity_info.xml" value="0.4" />
+        <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/activity_intro.xml" value="0.264" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/activity_oss_licenses_menu.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/layout/bookmark_main.xml" value="0.24320652173913043" />
@@ -19,6 +21,7 @@
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/menu/main_menu.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/menu/options_menu.xml" value="0.4" />
         <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/Kim SeungWu/Documents/AndroidLab/TotalShopping/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2869791666666667" />
       </map>
     </option>
   </component>

@@ -19,7 +19,6 @@ class BookmarkActivity : AppCompatActivity() {
     private lateinit var binding: ActivityBookmarkBinding
     private val listData = ArrayList<Memo>()
     private val helper = SqliteHelper(this,"memo",null,1)
-    lateinit var toggle: ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
