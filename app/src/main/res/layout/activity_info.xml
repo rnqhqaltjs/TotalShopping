@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="본 애플리케이션은 네이버 open API를 이용하여 제작되었음을 알립니다."
+        android:text="본 애플리케이션은 네이버 open API를 이용하여 제작되었습니다."
         android:textColor="@color/black"
         android:layout_margin="5dp"
         android:textSize="17sp"/>

@@ -77,13 +77,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="5dp"
-                    android:text="꿀팁!" />
+                    android:text="간단 사용법" />
 
                 <TextView
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="5dp"
                     android:text="1. 상품명을 입력한뒤 검색버튼을 눌러주세요" />
 
@@ -91,31 +91,31 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="5dp"
                     android:text="2. 원하시는 상품을 찾으셨나요?" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="5dp"
-                    android:text="3. 원하시는 상품을 1초 이상 꾹! 누르면 관심 상품으로 등록하실 수 있습니다." />
+                    android:text="3. 찾은 상품을 1초 이상 꾹! 누르면 관심 상품으로 등록할 수 있습니다." />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="5dp"
-                    android:text="4. 왼쪽 상단 '☰' 버튼을 누르신 뒤 '관심 항목' 탭에 가시면 등록하신 관심 상품을 확인하실 수 있습니다." />
+                    android:text="4. 왼쪽 상단 '☰' 버튼을 누르신 뒤 '관심 항목' 탭에 가시면 등록하신 관심 상품을 확인할 수 있습니다." />
 
                 <TextView
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginStart="5dp"
-                    android:text="5. 필터를 이용하면 더 다양하게 상품을 찾아보실 수 있습니다." />
+                    android:text="5. 필터를 이용하여 더 다양하게 상품을 찾아보세요." />
 
 
             </LinearLayout>
