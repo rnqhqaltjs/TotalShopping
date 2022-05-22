@@ -18,23 +18,23 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.practice.totalshopping.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".info.OssLicensesMenuActivity"
+            android:name="com.practice.totalshopping.info.OssLicensesMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".info.InfoActivity"
+            android:name="com.practice.totalshopping.info.InfoActivity"
             android:exported="false" />
         <activity
-            android:name=".sqlite.BookmarkRVAdapter"
+            android:name="com.practice.totalshopping.sqlite.BookmarkRVAdapter"
             android:exported="false"
             tools:ignore="Instantiatable" />
         <activity
-            android:name=".sqlite.BookmarkActivity"
+            android:name="com.practice.totalshopping.sqlite.BookmarkActivity"
             android:exported="false" />
         <activity
-            android:name=".intro.IntroActivity"
+            android:name="com.practice.totalshopping.intro.IntroActivity"
             android:exported="true">
 
 

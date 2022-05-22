@@ -1,4 +1,4 @@
-package com.example.totalshopping.sqlite
+package com.practice.totalshopping.sqlite
 
 import android.content.ContentValues
 import android.content.Context
@@ -23,7 +23,7 @@ class SqliteHelper(context: Context?, name: String?, factory: SQLiteDatabase.Cur
     }
 
     //insert 메소드
-    fun insertMemo(memo:Memo){
+    fun insertMemo(memo: Memo){
         val values = ContentValues()
         //넘겨줄 컬럼의 매개변수 지정
         values.put("title",memo.title)
@@ -72,7 +72,7 @@ class SqliteHelper(context: Context?, name: String?, factory: SQLiteDatabase.Cur
     }
 
     //update 메소드
-    fun updateMemo(memo:Memo){
+    fun updateMemo(memo: Memo){
         val values = ContentValues()
 
         values.put("title",memo.title)

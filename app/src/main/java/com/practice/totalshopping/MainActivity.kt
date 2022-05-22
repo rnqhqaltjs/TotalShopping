@@ -1,4 +1,4 @@
-package com.example.totalshopping
+package com.practice.totalshopping
 
 import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
@@ -22,17 +22,18 @@ import androidx.core.app.ActivityCompat
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.totalshopping.databinding.ActivityMainBinding
-import com.example.totalshopping.model.Items
-import com.example.totalshopping.model.ResultGetSearchShopping
+import com.practice.totalshopping.model.Items
+import com.practice.totalshopping.model.ResultGetSearchShopping
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.totalshopping.info.InfoActivity
-import com.example.totalshopping.model.NaverAPI
-import com.example.totalshopping.sqlite.BookmarkActivity
+import com.example.totalshopping.R
+import com.practice.totalshopping.info.InfoActivity
+import com.practice.totalshopping.model.NaverAPI
+import com.practice.totalshopping.sqlite.BookmarkActivity
 import com.google.android.material.snackbar.Snackbar
 import kotlin.system.exitProcess
 
@@ -64,7 +65,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
 
-        toggle = ActionBarDrawerToggle(this,binding.drawer,R.string.drawer_opened,R.string.drawer_closed)
+        toggle = ActionBarDrawerToggle(this,binding.drawer,
+            R.string.drawer_opened,
+            R.string.drawer_closed
+        )
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         toggle.syncState()
 

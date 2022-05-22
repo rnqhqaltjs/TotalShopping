@@ -1,4 +1,4 @@
-package com.example.totalshopping.model
+package com.practice.totalshopping.model
 
 data class ResultGetSearchShopping(
     var lastBuildDate: String = "",

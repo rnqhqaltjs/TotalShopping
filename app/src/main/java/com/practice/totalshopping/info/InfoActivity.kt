@@ -1,4 +1,4 @@
-package com.example.totalshopping.info
+package com.practice.totalshopping.info
 
 import android.content.Intent
 import android.graphics.Typeface

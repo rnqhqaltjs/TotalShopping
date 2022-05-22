@@ -1,4 +1,4 @@
-package com.example.totalshopping.sqlite
+package com.practice.totalshopping.sqlite
 
 data class Memo(
     var title: String?,

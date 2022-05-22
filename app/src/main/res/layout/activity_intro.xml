@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#9E56EB"
     android:orientation="vertical"
-    tools:context=".intro.IntroActivity">
+    tools:context="com.practice.totalshopping.intro.IntroActivity">
 
     <TextView
         android:id="@+id/introtitle"
@@ -40,8 +40,8 @@
         android:id="@+id/introsub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="128dp"
-        android:text="네이버 쇼핑 최저가 비교, 빠른 검색"
+        android:layout_marginBottom="140dp"
+        android:text="네이버 쇼핑 최저가 검색, 가격 비교"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

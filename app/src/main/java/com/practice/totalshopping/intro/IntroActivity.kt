@@ -1,11 +1,11 @@
-package com.example.totalshopping.intro
+package com.practice.totalshopping.intro
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.example.totalshopping.MainActivity
+import com.practice.totalshopping.MainActivity
 import com.example.totalshopping.R
 import com.example.totalshopping.databinding.ActivityIntroBinding
 

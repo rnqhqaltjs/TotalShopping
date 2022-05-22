@@ -1,4 +1,4 @@
-package com.example.totalshopping.info
+package com.practice.totalshopping.info
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

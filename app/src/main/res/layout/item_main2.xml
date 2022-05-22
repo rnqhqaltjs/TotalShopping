@@ -13,6 +13,7 @@
         android:id="@+id/item_image"
         android:layout_width="185dp"
         android:layout_height="185dp"
+        android:layout_gravity="center_horizontal"
         android:layout_margin="5dp"
         android:background="@drawable/square_background_border_black"
         android:backgroundTint="@color/gray"
@@ -23,13 +24,13 @@
     <TextView
         android:id="@+id/item_title"
         android:layout_width="wrap_content"
-        android:layout_height="39dp"
+        android:layout_height="42dp"
         android:layout_margin="5dp"
         android:ellipsize="end"
-        android:maxLines="2"
+        android:lines="2"
         android:text="제목들어가는 곳"
         android:textColor="@color/black"
-        android:textSize="13sp" />
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/item_price"
@@ -38,18 +39,18 @@
         android:layout_margin="5dp"
         android:text="가격들어가는 곳"
         android:textColor="@color/red"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/item_mallname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         android:layout_marginBottom="5dp"
         android:text="브랜드 명 들어가는 곳"
         android:textColor="@color/black"
-        android:textSize="10sp" />
+        android:textSize="11sp" />
 
 
 </LinearLayout>

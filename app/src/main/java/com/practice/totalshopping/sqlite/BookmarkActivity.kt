@@ -1,4 +1,4 @@
-package com.example.totalshopping.sqlite
+package com.practice.totalshopping.sqlite
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog

@@ -1,6 +1,6 @@
-package com.example.totalshopping.model
+package com.practice.totalshopping.model
 
-import com.example.totalshopping.model.ResultGetSearchShopping
+import com.practice.totalshopping.model.ResultGetSearchShopping
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header

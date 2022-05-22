@@ -1,4 +1,4 @@
-package com.example.totalshopping.sqlite
+package com.practice.totalshopping.sqlite
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide
 import com.example.totalshopping.databinding.BookmarkRvadapterBinding
 import java.text.DecimalFormat
 
-class BookmarkRVAdapter(val context: Context, val listData : ArrayList<Memo>, var helper:SqliteHelper? = null)
+class BookmarkRVAdapter(val context: Context, val listData : ArrayList<Memo>, var helper: SqliteHelper? = null)
     : RecyclerView.Adapter<BookmarkRVAdapter.Viewholder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Viewholder {
