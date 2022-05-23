@@ -5,14 +5,22 @@
 
     <item
         android:id="@+id/item_bookmark"
+        android:icon="@drawable/ic_baseline_favorite_24"
         android:title="관심 항목" />
 
     <item
+        android:id="@+id/item_manual"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="사용 설명서" />
+
+    <item
         android:id="@+id/item_out"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
         android:title="나가기" />
 
     <item
         android:id="@+id/item_info"
+        android:icon="@drawable/ic_baseline_info_24"
         android:title="개발자 정보" />
 
 </menu>

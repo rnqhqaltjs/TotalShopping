@@ -261,8 +261,6 @@ class MainActivity : AppCompatActivity() {
                     searchword = query
                 }
 
-                binding.textView.isVisible = false
-
                 return true
             }
 
@@ -281,6 +279,13 @@ class MainActivity : AppCompatActivity() {
                 R.id.item_bookmark -> {
 
                     val intent = Intent(this, BookmarkActivity::class.java)
+                    startActivity(intent)
+
+                }
+
+                R.id.item_manual -> {
+
+                    val intent = Intent(this, ManualActivity::class.java)
                     startActivity(intent)
 
                 }
@@ -352,17 +357,17 @@ class MainActivity : AppCompatActivity() {
     //뒤로 버튼 2번 누르면 종료
     override fun onBackPressed() {
         if(supportFragmentManager.backStackEntryCount == 0) {
-            val tempTime = System.currentTimeMillis();
-            val intervalTime = tempTime - backPressedTime;
+            val tempTime = System.currentTimeMillis()
+            val intervalTime = tempTime - backPressedTime
             if (intervalTime in 0..FINISH_INTERVAL_TIME) {
                 finish()
             } else {
-                backPressedTime = tempTime;
-                Toast.makeText(this, "'뒤로' 버튼을 한 번 더 누르면 종료됩니다.", Toast.LENGTH_SHORT).show();
+                backPressedTime = tempTime
+                Toast.makeText(this, "'뒤로' 버튼을 한 번 더 누르면 종료됩니다.", Toast.LENGTH_SHORT).show()
                 return
             }
         }
-        super.onBackPressed();
+        super.onBackPressed()
     }
 
 

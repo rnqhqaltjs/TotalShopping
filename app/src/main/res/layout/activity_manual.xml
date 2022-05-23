@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practice.totalshopping.ManualActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.TotalShopping"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 상품 검색하기"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(1) 먼저 원하는 상품을 검색하세요."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/firstmanual" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(2) 원하는 상품을 찾았다면 그 상품을 터치해 주세요."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/secondmanual" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(3) 터치하시면 그 상품을 구매하실 수 있는 링크로 연결해 드립니다."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/thirdmanual" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(4) 필터를 이용해서 더 다양하게 상품을 검색해 보세요."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/fourthmanual"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. 관심 항목 등록하기"
+            android:layout_margin="10dp"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(1) 원하시는 상품을 1초 이상 꾹 누르세요."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/secondmanual" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(2) '관심 항목에 등록하시겠습니까?' 메시지가 뜨면 '예'를 눌러주세요."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/fifthmanual" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:text="(3) 왼쪽 상단에 '≡' 버튼을 누른 뒤 '관심 항목'으로 들어가시면 등록하신 상품을 확인하실 수 있습니다."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/sixthmanual" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(3) 마찬가지로 등록하신 상품을 1초 이상 꾹 누르면 '관심 항목'에서 삭제가 가능합니다."
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:srcCompat="@drawable/elevenmanual"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

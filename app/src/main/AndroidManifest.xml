@@ -15,8 +15,9 @@
         android:theme="@style/Theme.TotalShopping"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-
-
+        <activity
+            android:name="com.practice.totalshopping.ManualActivity"
+            android:exported="false" />
         <activity
             android:name="com.practice.totalshopping.MainActivity"
             android:exported="false" />
@@ -36,9 +37,6 @@
         <activity
             android:name="com.practice.totalshopping.intro.IntroActivity"
             android:exported="true">
-
-
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

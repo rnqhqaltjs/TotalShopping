@@ -61,7 +61,6 @@ class RecyclerViewAdapter2(val context : Context, val items:MutableList<Items>)
                 binding.itemTitle.text = binding.itemTitle.text as String + "                                             "
             }
 
-
             Glide.with(context)
                 .load(item.image)
                 .into(binding.itemImage)
