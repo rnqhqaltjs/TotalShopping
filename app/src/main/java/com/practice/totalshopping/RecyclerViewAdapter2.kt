@@ -58,7 +58,7 @@ class RecyclerViewAdapter2(val context : Context, val items:MutableList<Items>)
             binding.itemMallname.text = mallname
 
             if(binding.itemTitle.text.length<=20){
-                binding.itemTitle.text = binding.itemTitle.text as String + "                                             "
+                binding.itemTitle.text = binding.itemTitle.text as String + "                                            "
             }
 
             Glide.with(context)
