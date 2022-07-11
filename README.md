@@ -1,6 +1,6 @@
 # 토탈쇼핑
 
-Retrofit을 통한 네이버 쇼핑 API를 이용해 개발한 상품 최저가 검색 어플
+Retrofit을 통한 네이버 쇼핑 API를 이용해 개발한 네이버 상품 최저가 검색 어플
 
 https://play.google.com/store/apps/details?id=com.practice.totalshopping
 
